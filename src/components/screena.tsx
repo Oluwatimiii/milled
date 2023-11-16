@@ -21,7 +21,7 @@ export const Screena = () => {
         <div className="flex shadow-md items-center justify-between w-full md:max-w-[80%] bg-white rounded-lg overflow-hidden">
           <input
             placeholder="Search brands or keywords"
-            className="bg-transparent w-[80%] px-2"
+            className="bg-transparent focus:outline-none  w-[80%] px-2"
           />
           <div className="bg-gray-100 px-5 py-3 cursor-pointer">
             <FaSearch size={20} />
