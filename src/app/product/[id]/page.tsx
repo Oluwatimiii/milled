@@ -11,7 +11,7 @@ const ProductDetails = ({ params }: { params: { id: string } }) => {
   );
 
   return (
-    <section className="py-[2rem] md:py-[3rem] px-[2rem] md:px-[3rem] w-full">
+    <section className="py-[3rem] md:py-[3rem] px-[2rem] md:px-[3rem] w-full">
       <div>
         <div className="w-full my-4 relative h-[140px] md:h-[190px] border-[1px] overflow-hidden border-[#ac2b2b46]/50">
           <Image
@@ -38,7 +38,7 @@ const ProductDetails = ({ params }: { params: { id: string } }) => {
         </p>
       </div>
 
-      <div className="mt-6">
+      <div className="my-6">
         <h1 className="font-bold text-base md:text-xl pl-3 py-4">
           Similar products
         </h1>
